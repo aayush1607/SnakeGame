@@ -11,9 +11,9 @@ function init(){
 
     var canvas=document.getElementById("mycanvas");
 
-    W=canvas.width=1000;
-    H=canvas.height=1000;
-    cs=67;
+    W=canvas.width=600;
+    H=canvas.height=600;
+    cs=57;
     //canvas is used to draw graphics
     pen=canvas.getContext('2d')
     game_over="false";
@@ -229,4 +229,4 @@ function gameloop(){
 
 }
 init();
-var f=setInterval(gameloop,100);
+var f=setInterval(gameloop,200);
