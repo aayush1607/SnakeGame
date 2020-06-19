@@ -230,7 +230,7 @@ function gameloop(){
 }
 init();
 var f=setInterval(gameloop,130);
-
+let start=document.querySelector('.button');
 
 start.addEventListener('click',function(){
 
