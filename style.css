@@ -6,3 +6,23 @@ body{
     background-color: black;
   
 }
+.button{
+
+    margin-left: 50px;
+    padding: 1rem 3rem; 
+    font-weight: 600;
+    font-size: 1rem;
+    border:2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all .3s ease;
+    border:5px solid darkgreen;
+    background-color: yellowgreen;
+    color:darkgreen;
+    height: 10px;
+    width: 50px;
+
+
+
+}
