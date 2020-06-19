@@ -230,3 +230,17 @@ function gameloop(){
 }
 init();
 var f=setInterval(gameloop,100);
+
+
+start.addEventListener('click',function(){
+
+    location.reload();
+
+
+    
+    
+   
+    
+
+})
+
