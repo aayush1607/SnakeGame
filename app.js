@@ -53,10 +53,19 @@ function init(){
             for(var i=0;i<this.cells.length;i++){
 
 
+               if(i==0){
+                    pen.fillStyle=this.color;
+                    pen.fillRect(this.cells[i].x*cs,this.cells[i].y*cs,cs-2,cs-2);
+                    pen.drawImage(snakeImg,this.cells[i].x*cs,this.cells[i].y*cs,cs-2,cs-2);
+                    
+                    
+                }
+                else{
                 pen.fillStyle=this.color;
 
 
                 pen.fillRect(this.cells[i].x*cs,this.cells[i].y*cs,cs-2,cs-2);
+                }
             }
 
         },
