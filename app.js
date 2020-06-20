@@ -11,8 +11,8 @@ function init(){
 
     var canvas=document.getElementById("mycanvas");
 
-    W=canvas.width=620;
-    H=canvas.height=620;
+    W=canvas.width=600;
+    H=canvas.height=600;
     cs=67;
     //canvas is used to draw graphics
     pen=canvas.getContext('2d')
