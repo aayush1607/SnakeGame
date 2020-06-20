@@ -28,7 +28,10 @@ function init(){
     //img for trophy
     trophyImg=new Image();
     trophyImg.src="images/trophy.png";
-
+    
+     //snake head
+    snakeImg=new Image();
+    snakeImg.src="images/snake.png";
 
 
     snake = {
