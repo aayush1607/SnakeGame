@@ -146,18 +146,18 @@ function init(){
 
     //ADD EVENT LISTENER
 
-    function keyPressed(e){
+   function keyPressed(e){
 
-        if(e.key=="ArrowRight" || e.key=="d" || e.key=="D"){
+        if((e.key=="ArrowRight" || e.key=="d" || e.key=="D") && (snake.direction!="left")){
             snake.direction="right";
         }
-        else if(e.key=="ArrowLeft" || e.key=="a" || e.key=="A"){
+        else if((e.key=="ArrowLeft" || e.key=="a" || e.key=="A")&& (snake.direction!="right")){
             snake.direction="left";
         }
-        else if(e.key=="ArrowDown" || e.key=="s" || e.key=="S"){
+        else if((e.key=="ArrowDown" || e.key=="s" || e.key=="S")&& (snake.direction!="up")){
             snake.direction="down";
         }
-        else if(e.key=="ArrowUp" || e.key=="w" || e.key=="W"){
+        else if((e.key=="ArrowUp" || e.key=="w" || e.key=="W")&& (snake.direction!="down")){
             snake.direction="up";
         }
         //console.log(snake.direction);
@@ -229,7 +229,7 @@ function gameloop(){
 
 }
 init();
-var f=setInterval(gameloop,130);
+var f=setInterval(gameloop,180);
 let start=document.querySelector('.button');
 
 start.addEventListener('click',function(){
