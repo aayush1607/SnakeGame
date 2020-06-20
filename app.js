@@ -11,8 +11,8 @@ function init(){
 
     var canvas=document.getElementById("mycanvas");
 
-    W=canvas.width=600;
-    H=canvas.height=600;
+    W=canvas.width=620;
+    H=canvas.height=620;
     cs=67;
     //canvas is used to draw graphics
     pen=canvas.getContext('2d')
@@ -229,7 +229,7 @@ function gameloop(){
 
 }
 init();
-var f=setInterval(gameloop,180);
+var f=setInterval(gameloop,220);
 let start=document.querySelector('.button');
 
 start.addEventListener('click',function(){
